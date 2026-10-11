@@ -2,3 +2,5 @@
 
 * **Photo by:** Jenelyn Tagocon  
 * **Enhanced by:** Gemini AI
+
+* **Logo by: ** Jenelyn Tagocon

@@ -1,9 +1,4 @@
 * {
-    outline: 2px solid red;
-}
-
-
-* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -35,9 +30,15 @@
 }
 
 .logo{
-  display: flex;
-  justify-content: center;
   width: 50px;
+  margin-top: 25px;
+}
+
+.login-panel {
+  display: flex;
+  flex-direction: column;
+  background-color: beige;
+  border-radius: 20px;
 }
 
 .logon {
