@@ -44,7 +44,7 @@
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   margin-top: 150px;
-  width: 100%;
+   width: 100%;
   align-items: center;
 }
 
@@ -57,7 +57,7 @@
     margin-left: 5%;
 }
 
-input {
+input[type="usernamebox"], input[type="passwordbox"]{
   width: 300px;
   max-width: 800px;
   border: 1px solid #423333;
@@ -65,4 +65,45 @@ input {
   border-radius: 20px;
   padding: 12px 16px;
   margin-top: 10px;
+  font-size: 15px;
+}
+
+#loginBtn {
+  margin-top: 15px;
+  width: 300px;
+  background-color: #800000;
+  color: white;
+  max-width: 800px;
+  border-radius: 20px;
+  padding: 12px 16px;
+  font-size: 15px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.remember-container{
+  margin-top: 15px;
+  width: 80%;
+}
+
+.remember-container label {
+  margin: 20px;
+  color: #333333;
+  font-size: 14px;
+  cursor: pointer;
+  white-space: nowrap;
+  margin-left: 2px; 
+}
+
+.signup-container {
+  display: flex;
+  margin-top: 25px;
+  align-items: center;
+  }
+
+#signupBtn {
+  margin-left: 35px;
+  padding: 12px 35px;
+  border-radius: 20px;
+  background-color: white;
+  border-color: #333333;
 }
