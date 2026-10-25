@@ -112,8 +112,31 @@ input[type="usernamebox"], input[type="passwordbox"]{
   
   .container {
     flex-direction: row;
+    min-height: 100vh;
   }
 
   .login-panel {
-    margin-top: 34px;
+    margin-top: 0;
+    border-radius: 0;
+    width: 40%;
   }
+
+  input[type="usernamebox"], input[type="passwordbox"]{
+  width: 80%;
+  padding: 14px;
+  font-size: 16px;
+  box-sizing: border-box;
+  }
+
+  .logo {
+    width: 90px;
+  }
+.logon {
+  margin-bottom: 50px;
+}
+  
+#loginBtn {
+  width: 80%;
+  margin-top: 40px;
+  margin-bottom: 150px;
+}
